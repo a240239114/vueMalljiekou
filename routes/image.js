@@ -4,7 +4,7 @@ var mongoose = require ('mongoose')
 var image = require ('../models/image')
 
 //连接数据库
-mongoose.connect('mongodb://localhost/local')
+mongoose.connect('mongodb://localhost/vueMall')
 
 //连接成功
 mongoose.connection.on("connected",()=>console.log('success'))

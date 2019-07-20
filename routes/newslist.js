@@ -5,7 +5,7 @@ var newslist = require ('../models/newslist')
 
 
 //连接mongodb数据库
-mongoose.connect('mongodb://localhost/local')
+mongoose.connect('mongodb://localhost/vueMall')
 
 //连接成功
 mongoose.connection.on('connected',()=>console.log('success'))
