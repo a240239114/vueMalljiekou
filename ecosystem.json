@@ -2,7 +2,7 @@
     "apps":[
         {
             "name":"vueMalljiekou",
-            "scripts":"./bin/www",
+            "script":"./bin/www",
              "env":{
                  "COMMON_VARIABLE":"true"
              },
